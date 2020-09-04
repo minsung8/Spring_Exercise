@@ -53,7 +53,16 @@ Bean class
   1. 기본생성자를 가진다
   2. 필드는 private 선언
   3. getter, setter 메서드를 가진다 => Property
+
+Java Config을 이용한 설정을 위한 어노테이션
+  @Configuration => 스프링 설정 클래스를 선언하는 어노테이션
+  @Bean => bean을 정의하는 어노테이션
+  @ComponentScan => @Controller, @Service, @Repository, @Component 어노테이션이 붙은 클래스를 찾아 컨테이너에 등록
+  @Component => 컴포넌트 스캔의 대상이 되는 애노테이션 중 하나로써 주로 유틸, 기타 지원 클래스에 붙이는 어노테이션
+  @Autowired => 주입 대상이되는 bean을 컨테이너에 찾아 주입하는 어노테이션
   
+  
+
   
 
 
