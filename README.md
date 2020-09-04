@@ -47,6 +47,15 @@ Spring 에서 제공하는 IoC/DI 컨테이너
 - BeanFactory : Ioc/DI에 대한 기본 기능을 가지고 있음
 - ApplicationContext : BeanFactory의 모든 기능을 포함하며 BeanFactory보다 추천됨. 트랜잭션처리, AOP등에 대한 처리 및 BeanPostProcessor, BeanFactoryPostProcessor등을 자동으로 등록하고, 국제화 처리, 어플리케이션 이벤트 등을 처리할 수 있음
 
+Bean class
+- 일반적으로 java class를 의미
+- 3가지 특징 
+  1. 기본생성자를 가진다
+  2. 필드는 private 선언
+  3. getter, setter 메서드를 가진다 => Property
+  
+  
+
 
 
 
